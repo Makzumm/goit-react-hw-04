@@ -1,0 +1,12 @@
+.galleryList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.galleryListItem {
+    margin: 5px;
+}
+
+.galleryListItem:nth-child(4n) {
+    margin-right: 0;
+}
