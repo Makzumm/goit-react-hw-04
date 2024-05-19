@@ -22,7 +22,7 @@ const customStyles = {
     },
 };
 
-function ImageModal({ isOpen, closeModal, imageUrl, imageDescription, openModal }) {
+function ImageModal({ isOpen, closeModal, imageUrl, imageDescription }) {
     return (
         <Modal
             isOpen={isOpen}
@@ -32,7 +32,7 @@ function ImageModal({ isOpen, closeModal, imageUrl, imageDescription, openModal 
             shouldCloseOnOverlayClick={true}
         >
             <div className={css.modalContainer}>
-                <img src={imageUrl} alt="Modal Image" onClick={() => openModal(item.urls.regular)} />
+                <img src={imageUrl} alt="Modal Image" />
                 <p>{imageDescription}</p>
             </div>
         </Modal>

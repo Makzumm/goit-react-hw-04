@@ -3,7 +3,7 @@ import { fetchGalleryWithQuery } from "../../gallery-api.js";
 import SearchBar from '../SearchBar/SearchBar';
 import ImageGallery from '../ImageGallery/ImageGallery.jsx';
 import Loader from '../Loader/Loader.jsx';
-import LoadMoreBtn from '../LoadMoreBtn/LoadMoreBtn.jsx';
+import LoadMoreBtn from '../LoadMoreBtn/LoadrMoreBtn.jsx'
 import ErrorMessage from '../ErrorMessage/ErrorMessage.jsx';
 import ImageModal from '../ImageModal/ImageModal.jsx';
 import { toast } from 'react-hot-toast';

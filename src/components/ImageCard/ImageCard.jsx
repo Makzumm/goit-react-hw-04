@@ -1,8 +1,8 @@
 import css from "./ImageCard.module.css"
 
-function ImageCard({ galleryData, onClick }) {
+function ImageCard({ galleryData, handleImageClick }) {
     const handleClick = () => {
-        onClick(galleryData.urls.regular);
+        handleImageClick(galleryData.urls.regular);
     };
 
     return (

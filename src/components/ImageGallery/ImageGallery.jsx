@@ -11,7 +11,7 @@ function ImageGallery({ galleryData, openModal }) {
             {galleryData.map((item) => {
                 return (
                     <li className={css.galleryListItem} key={item.id}>
-                        <ImageCard galleryData={item} onClick={handleImageClick} />
+                        <ImageCard galleryData={item} handleImageClick={handleImageClick} />
                     </li>
                 );
             })}
